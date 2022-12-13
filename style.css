@@ -1,0 +1,24 @@
+#title {
+    color: blue;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.wrap {
+    display: flex;
+}
+
+.todo-box {
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+}
+
+button {
+    width: calc(80% - 20px);
+}
+
+button:hover {
+    background-color: orange;
+}
